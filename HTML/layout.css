@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+#header{
+    display: grid;
+    grid-template-columns: auto auto;
+    background: blue;
+}
+#header img{
+    width: 260px;
+    height: 260px;
+}
+#menu{
+    background: green;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+#menu li{
+    padding: 10px;
+    cursor: pointer;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu a :hover{
+    background-color: blueviolet;
+}
+#menu ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+}
+#main{
+    background: yellow;
+    height: 100vh;
+    border: solid;
+}
+#foster{
+    background: red;
+}
